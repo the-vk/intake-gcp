@@ -1,0 +1,6 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'intake', '~> 0.1.0'
+gem 'intake-gcp', '~> 0.1.0'

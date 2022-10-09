@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 require 'intake'
-
-require_relative '../lib/intake-gcp'
+require 'intake/gcp'
 
 Google::Cloud.configure do |config|
   config.project_id = '' # Set to GCP project Id
