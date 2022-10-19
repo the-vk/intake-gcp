@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir.glob('{bin,lib}/**/*') + %w[LICENSE README.md]
 
-  spec.add_runtime_dependency 'intake', '~> 0.1.0'
+  spec.add_runtime_dependency 'intake', '~> 0.1'
   spec.add_runtime_dependency 'stackdriver', '~> 0.21.1'
 
   spec.add_development_dependency 'code-scanning-rubocop', '~> 0.6.0'
